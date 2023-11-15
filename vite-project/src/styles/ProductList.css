@@ -1,0 +1,27 @@
+/* Estilos para imágenes */
+.product-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* Permitirá que las tarjetas se envuelvan automáticamente en una nueva línea si no hay suficiente espacio */
+}
+
+.product-card {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 250px; /* Ancho fijo para cada tarjeta, puedes ajustarlo según sea necesario */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card-body {
+  text-align: center;
+}
+

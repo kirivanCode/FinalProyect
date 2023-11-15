@@ -1,0 +1,110 @@
+/* Home.css */
+
+/* Estilos generales */
+.home-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-top: 60px;
+  font-family: 'Arial', sans-serif;
+  color: #000000;
+}
+
+/* Estilos para secciones */
+section {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+/* Estilos para títulos */
+h2 {
+  color: #007bff;
+}
+
+/* Estilos para párrafos */
+p {
+  line-height: 1.6;
+}
+
+/* Estilos para imágenes */
+img {
+  max-width: 1000px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.01);
+}
+
+/* Estilos para tarjetas de productos/testimonios */
+.product-card,
+.testimonial {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s, transform 0.3s ease-in-out;
+}
+
+.product-card:hover,
+.testimonial:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+/* Estilos para enlaces */
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Estilos para la sección de ofertas especiales */
+.special-offers-section {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las tarjetas de productos destacados y testimonios */
+.product-card,
+.testimonial {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s, transform 0.3s ease-in-out;
+}
+
+.product-card:hover,
+.testimonial:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+/* Estilos para el slider */
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-image {
+  width: 100%;
+  height: auto;
+}
+
+.slick-slide img {
+  max-width: 800px; /* Ajusta el tamaño máximo al 100% del contenedor */
+  height: auto; /* Mantiene la proporción original de la imagen */
+}
